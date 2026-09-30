@@ -12,3 +12,11 @@ println(carnumber)
 2)var (sum is constanly updated)
 3) val (as input from the user is unchanged)
 */
+
+const val g_force = 9.78
+
+const val MAX_SIZE = 100
+
+fun createFile(name: String) {
+    
+}
