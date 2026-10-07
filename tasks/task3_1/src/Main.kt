@@ -1,5 +1,6 @@
 // Task 3.1: command line arguments
-import kotlin.system.exitProcess
+
+/*import kotlin.system.exitProcess
 
 fun main(args: Array<String>) {
     if (args.size != 2) {
@@ -9,4 +10,10 @@ fun main(args: Array<String>) {
 
     println(args[0])
     println(args[1])
+}
+*/
+
+fun main(args: Array<String>) {
+    println("Hello world!")
+    println(args[0])
 }
