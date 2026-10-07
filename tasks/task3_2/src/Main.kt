@@ -1,5 +1,5 @@
 // Task 3.2: numeric conversion example
-
+/* 
 import kotlin.system.exitProcess
 
 fun main(args: Array<String>) {
@@ -11,4 +11,10 @@ fun main(args: Array<String>) {
     val number = args[0].toInt()
     println(number * number)
     println(Int.MAX_VALUE)
+}
+*/
+
+fun main(args: Array<String>) {
+    val sum = args[0].toInt() + args[1].toInt()
+    println(sum)
 }
