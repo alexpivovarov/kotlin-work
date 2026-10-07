@@ -8,6 +8,7 @@ fun main(args: Array<String>) {
         exitProcess(1)
     }
 
-    val number = args[0].toDouble()
+    val number = args[0].toInt()
     println(number * number)
+    println(Int.MAX_VALUE)
 }
