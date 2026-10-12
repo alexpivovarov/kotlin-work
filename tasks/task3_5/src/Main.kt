@@ -11,7 +11,7 @@ fun main() {
     path.writeText("This is some text\n") 
     path.appendText("Appended this\n")
 
-    val FileContents = path.readText()
+    val fileContents = path.readText()
     println(FileContents)
 }
 
