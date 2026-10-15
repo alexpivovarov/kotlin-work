@@ -2,9 +2,9 @@
 // Function to redact sensitive information in a string
 
 fun redact(inputDocument: String, toRedact: String, editChar: Char='X') : String {
-    val mask = editChar.toString() // *
+    var mask = editChar.toString() // *
     val length = toRedact.length // 3
-    val mask = asString.repeat(length) // ***
+    mask = mask.repeat(length) // ***
 
 
     return inputDocument.replace(toRedact, mask)
